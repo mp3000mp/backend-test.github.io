@@ -7,7 +7,7 @@ $arr[8] = 'test';
 ```
 
 **Answer:** 
-  - [ ] 1 
+  - [X] 1 
   - [ ] 8 
   - [ ] 9
 
@@ -24,7 +24,7 @@ $c = $b;
 
 **Answer:**
   - [ ] 1
-  - [ ] 2
+  - [X] 2
   - [ ] 3
 
 ## 3. What is the output of the following snippets?
@@ -39,7 +39,7 @@ $nb = (int) implode('', $arr);
 echo $nb;
 ```
 
-**Answer:** ?
+**Answer:** 31
 
 B.
 ```php
@@ -49,7 +49,7 @@ $b = "4{$b}";
 echo $a . ',' . $b++;
 ```
 
-**Answer:** ?
+**Answer:** 41,41
 
 ## 4. Which PHP code snippet shows an example of Dependency Injection?
 
@@ -87,7 +87,7 @@ C.
 ```
 
 **Answer:**
-  - [ ] A
+  - [X] A
   - [ ] B
   - [ ] C
 
@@ -109,7 +109,7 @@ class MyClass
 }
 ```
    
-**Answer** : ?
+**Answer** : Factory
    
 #### Design Pattern #2   
 
@@ -152,5 +152,5 @@ class MyClass
 }
 ```
 
-**Answer** : ?
+**Answer** : Iterator
 
